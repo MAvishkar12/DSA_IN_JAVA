@@ -1,0 +1,63 @@
+
+1. int length() : Returns the number of characters in the String.
+  String s = "Hello, World!";
+        System.out.println(s.length()); // 13
+
+2 .charAt(int i)  : This method returns the character at ith index.
+
+3 .String substring(int i)  :This method return the substring from the ith index character to end.
+   String s = "Hello, World!";
+        System.out.println(s.substring(7)); // World
+
+4 .  String substring(int i, int j) : This method returns the substring from i to j-1 index.
+     String s = "Hello, World!";
+        System.out.println(s.substring(7, 12)); // World
+
+5. String concat( String str)
+     String s = "Hello, World!";
+        System.out.println(s.concat("!!!"));
+
+6.int indexOf(String s) : This method returns the index within the string of the first occurrence of the specified string.
+If the specified string s is not found in the input string, the method returns -1 by default.
+   String s = "Hello, World!";
+        System.out.println(s.indexOf("World"));// 10
+
+7.int indexOf(String s, int i) : This method returns the index within the string of the first occurrence of the specified string,
+starting at the specified index
+  String str = "Hello, World!";
+        System.out.println(str.indexOf("l", 4)); //10
+
+8.int lastIndexOf(String s) : This method returns the index within the string of the last occurrence of the specified string.
+ If the specified string s is not found in the input string, the method returns -1 by default.
+    String s = "Hello, World!";
+         System.out.println(s.lastIndexOf("l"));//10
+
+ 9.boolean equals(Object otherObj) : This method compares this string to the specified object.
+        String s = "Hello, World!";
+         System.out.println(s.equals("Hello, World!")); //true
+
+ 10.int compareTo(String anotherString) :This method compares two string lexicographically
+  String s = "Hello, World!";
+    System.out.println(s.compareTo("Hello, Java!")); //13
+
+ 11.boolean equalsIgnoreCase(String anotherString) : This method checks if two strings are equal,
+ without considering letter case.
+  String s = "Hello, World!";
+         System.out.println(s.compareToIgnoreCase("hello, java!"));//13
+
+ 12.String trim()
+ This method returns the copy of the String, by removing whitespaces at both ends.
+  It does not modify the whitespace characters present between the text.
+
+ 13.String replace(char oldChar, char newChar) : This method returns a new string where all
+  instances of oldChar are replaced by newChar.
+    String s = "Hello, World!";
+          System.out.println(s.replace('l', 'x'));// Hexxo, Worxd!
+
+ 14. boolean contains(CharSequence sequence) : This method returns true if string contains the given string.
+    String s = "Hello, World!";
+        System.out.println(s.contains("World")); // true
+
+ 15.boolean startsWith(String prefix) : This method returns true if string starts with this prefix.
+         String s = "Hello, World!";
+         System.out.println(s.startsWith("Hello"));
