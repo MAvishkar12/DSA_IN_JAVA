@@ -1,28 +1,25 @@
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public  static  int[] count(int arr[]){
-   int maxfreq=Integer.MIN_VALUE;
-   int minfreq=Integer.MAX_VALUE;
-    HashMap<Integer,Integer> h1=new HashMap<>();
-    for(int i=0;i<arr.length;i++){
-     h1.put(arr[i],h1.getOrDefault(arr[i],0)+1);
-    }
-
-    for(int a:h1.values()){
-        maxfreq=Math.max(a,maxfreq);
-        minfreq=Math.min(a,minfreq);
-    }
 
 
-
-    return new int [] {maxfreq,minfreq};
-}
+import com.sun.security.jgss.GSSUtil;
 
 void main() {
-  int arr[]={4, 4, 5, 5, 6, 7};
-  int result[]=count(arr);
-    System.out.println(Arrays.toString(result));
+    String name="Avishkar         More               ";
+   // System.out.println(name.length());
+   // System.out.println(name.charAt(1));
+//    System.out.println(name.substring(8));
+//    System.out.println(name.substring(8,name.length()));
+//    System.out.println(name.concat("  Hello"));
+//    System.out.println(name.indexOf('r'));
+//    System.out.println(name.lastIndexOf('g'));
+//    System.out.println(name.compareTo("Avishkar more"));
+//    System.out.println(name.compareToIgnoreCase("Avishkar Patil"));
+//    System.out.println(name.trim());
+//    System.out.println(name.replace('A','a'));
+//    System.out.println(name.startsWith("A"));
+    System.out.println('b'-'a');
 
     }
 

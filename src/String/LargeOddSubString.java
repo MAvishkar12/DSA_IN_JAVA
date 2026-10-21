@@ -19,7 +19,7 @@ public static String LargeOddSubString (String s){
 }
 
 void main() {
-    String s="00001";
+    String s="012346";
     String result=LargeOddSubString(s);
     System.out.println(result);
 

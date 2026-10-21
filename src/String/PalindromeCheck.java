@@ -4,7 +4,7 @@ public static boolean PalindromeCheck (String s) {
     int n=s.length();
    for(int i=0;i<n/2;i++){
        if(s.charAt(i)!=s.charAt(n-1-i)){
-           return  false; // always check negative test case in comparison.
+           return  false; // always check negative test case if comparison.
        }
    }
  return  true;
