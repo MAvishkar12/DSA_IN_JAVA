@@ -6,20 +6,15 @@
 import com.sun.security.jgss.GSSUtil;
 
 void main() {
-    String name="Avishkar         More               ";
-   // System.out.println(name.length());
-   // System.out.println(name.charAt(1));
-//    System.out.println(name.substring(8));
-//    System.out.println(name.substring(8,name.length()));
-//    System.out.println(name.concat("  Hello"));
-//    System.out.println(name.indexOf('r'));
-//    System.out.println(name.lastIndexOf('g'));
-//    System.out.println(name.compareTo("Avishkar more"));
-//    System.out.println(name.compareToIgnoreCase("Avishkar Patil"));
-//    System.out.println(name.trim());
-//    System.out.println(name.replace('A','a'));
-//    System.out.println(name.startsWith("A"));
-    System.out.println('b'-'a');
+    HashSet<Integer> h1=new HashSet<>();
+    h1.add(1);
+    h1.add(2);
+    h1.add(3);
+    System.out.println(h1.size());
+
+
+
+
 
     }
 
