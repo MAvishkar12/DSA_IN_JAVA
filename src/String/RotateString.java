@@ -18,7 +18,7 @@
 //    }
 // return  false;
 //}
-
+// Check rotate string present in the original string.
 public static boolean RotateString(String s,String g){
     if(s.length()!=g.length()) return false;
     return  (s+s).contains(g);

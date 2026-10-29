@@ -61,3 +61,24 @@ starting at the specified index
  15.boolean startsWith(String prefix) : This method returns true if string starts with this prefix.
          String s = "Hello, World!";
          System.out.println(s.startsWith("Hello"));
+
+ 16 .
+ Character.isDigit(s.charAt(i)) evaluates
+ whether the character at index i of the string s is a numeric digit   .
+ Return boolean value.
+
+
+ /// String Builder
+
+ StringBuilder sb = new StringBuilder("Initial String");
+
+  sb.append("Hello"); //Appends the specified string to the end of the StringBuilder.
+  sb.insert(13, " Java"); //	Inserts the specified string at the given position in the StringBuilder.
+  sb.replace(0, 5, "Welcome to"); //Replaces characters in a substring with the specified string.
+  sb.delete(8, 14); //Removes characters in the specified range.
+   sb.reverse(); //Reverses the sequence of characters in the StringBuilder.
+   sb.charAt(5); //Returns the character at the specified index.
+   setCharAt(5, 'X'); //Replaces the character at the specified position with a new character.
+   deleteCharAt(5); //Removes the character at the specified position.
+   lastIndexOf(String str) : //Returns the index of the last occurrence of the specified string.
+   toString() : //Converts the StringBuilder object to a String.
